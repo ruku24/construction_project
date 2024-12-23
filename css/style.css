@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+   
+}
+a{
+    text-decoration: none;
+}
+.common_btn{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #173a69;
+    border-radius: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+   
+}
+
+.common_btn2{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(246, 73, 10);
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+.container .heading{
+    padding: 10px 0px;
+    text-align: center;
+    margin: 10px 0px;
+    
+
+}
+
+.header-section{
+    padding: 20px 0px;
+}
+
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header-section .row{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    
+}
+
+.header-section ul{
+    list-style-type: none;
+    text-align: center;
+  
+}
+
+.header-section ul li{
+    display: inline-block;
+    padding: 10px;
+   
+}
+
+.header-section .menu a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #173a69;
+    font-weight: bold;
+}
+
+
+.user {
+ padding: 10px 0px;
+}
+
+/* banner section start */
+
+.banner_section img {
+    width: 100%;
+    max-height: 750px;
+
+}
+
+
+/* banner section end */
+
+
+
+/* courses-section */
+.courses-section{
+    padding: 40px 0px;
+}
+
+
+
+.courses-section .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.courses_item{
+     padding: 20px 15px;
+     border: 2px solid#f1f1f1;
+     border-radius: 4px ;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+  
+
+}
+.courses_item p ,h3,h5{
+    padding: 6px 0px;
+}
+
+.courses_item img{
+   /* height: 200px;
+   max-width: 250px; */
+   
+}
+
+.courses_item .btn{
+ padding: 20px 0px;
+}
+
+
+/* students feedback section start */
+.student_feedback{
+    background-color: antiquewhite;
+    padding: 30px 0px;
+}
+.student_feedback .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+   
+}
+
+.student_feedback .feedback_item img{
+ border-radius: 50%;
+}
+
+/* students feedback section end */
+
+/* gallery section start */
+
+.gallery-section{
+    padding: 30px 0px;
+}
+
+.gallery-section .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px 0px;
+  
+
+}
+
+.gallery-section .row .image img{
+   border-radius: 10px;
+
+
+}
+
+/* gallery section end */
+
+/* footer section start */
+
+.footer_section_top{
+    background: #FFFBEE;
+    padding: 30px 0px;
+}
+.footer_section_top .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer_section_top  ul li{
+    list-style-type: none;
+    padding: 5px 0px;
+    /* position: relative; */
+}
+
+
+.footer_section_top ul li a{
+    color: #000;
+}
+
+.footer_contact ul li i{
+ padding: 0px 5px;
+    
+   
+}
+
+
+
+.footer_bottom{
+    padding: 10px 0px;
+    background: black;
+}
+
+.footer_bottom .row{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.footer_bottom h5{
+    color: #fff;
+}
+.footer-devlopment{
+    text-align: right;
+}
+/* footer section end */
+
+/* about page css */
+.inner_banner{
+    padding: 90px 0px;
+    background-image: url(../imsges/about.png);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.inner_banner h1, h5{
+    text-align: center;
+    color: #fff;
+   
+}
+
+.inner_banner h1{
+    font-size: 32px;
+}
+
+.inner_banner h5{
+    font-size: 14px;
+}
+
+.inner_banner h5 a{
+    color: #fff;
+}
+
+.welcome_section{
+    padding: 90px 0px;
+}
+
+.welcome_section .row{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    
+}
+
+.welcome_content{
+    padding-top: 35px;
+}
+.welcome_content h2{
+    font-size: 28px;
+    color: #000;
+    text-align: left;
+}
+.welcome_content h2 span{
+    color: #173a69; ;
+}
+
+
+.welcome_content img{
+   padding: 10px 0px;
+}
+.welcome_content p{
+    font-size: 15px;
+    line-height: 25px;
+   padding-bottom: 40px;
+}
+/* service section start */
+
+
+
+
+.services_section{
+    padding: 80px 0px;
+    background-image: url(../imsges/servicesbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.services_section .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 28px;
+}
+
+.service_item{
+    background-color: #fff;
+    padding: 30px 22px;
+    text-align: center;
+
+}
+
+.service_item h3{
+    text-align: center;
+    color: #173a69;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.service_item p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+/* service section end */
+
+.feature_section{
+    padding: 40px 0px;
+    background-image: url(../imsges/festurebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+}
+.feature_section .row{
+ 
+  
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding: 40px 0px;
+}
+
+
+
+.get_quote_section{
+    padding: 40px 0px;
+    background-color: #173a69;
+    text-align: center;
+}
+
+.get_quote_section h3{
+ color: #fff;
+    
+}
+
+.get_quote_section h3 span a{
+    font-weight: 800;
+    color:#fff ;
+
+}
+
+.social_media{
+    padding: 50px 0px;
+    text-align: center;
+}
+.social_icon a{
+    padding: 10px;
+    color: #897f7f;
+    font-size: 30px;
+}
+
+
+
+
+/* contact page */
+
+.contact_inner_banner{
+    background-image: url(../imsges/bg-contact.jpg);
+    padding: 90px 0px;
+    background-size: cover;
+    background-position: center center;
+   
+
+}
+.contact_inner_banner .Contact_heading a,h2,h5{
+    text-align: center;
+    color: #fff;
+}
+
+.contact_content{
+    /* text-align: left; */
+    color: #000 ;
+    padding: 30px 0px;
+}
+
+.contact .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 40px 0px;
+}
+
+.contact_item i{
+    color: coral;
+    font-size: 20px;
+    line-height: 25px;
+}
+.contact_item h4, h6{
+    color: #000 ;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+.contact_item{
+    
+    padding: 10px 10px;
+    background-color: #f1f1f1 ;
+    border: 1px solid #f888;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.contact_form_map .row{
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.contact_form form div{
+    padding: 10px 0px;
+}
+
+.contact_form .name_phone{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+}
+.contact_form form div input{
+    padding: 5px 10px;
+    border-radius: 1px;
+   
+    border: 1px solid #797878;
+    width: 100%;
+    
+}
+.contact_form form div textarea{
+    width: 100%;
+    resize: none;
+}
+.contact_form form div input[type="text"]{
+    color: #000;
+}
+
+.contact_form .submit_btn{
+    width: auto;
+    padding: 10px 25px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.service_offer_section{
+    padding: 60px 0px;
+}
+.service_heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+.service_heading img{
+ margin: 0 auto;
+ display: block;
+ padding: 5px 0px;
+}
+
+.service_offer_section .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.service_item p{
+    font-size: 17px;
+    color: #000;
+    padding: 5px 0px;
+}
+
+.blog_section{
+    padding: 60px 0px;
+}
+
+.blog_section .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.blog_item{
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.blog_item .blog_title h4{
+    font-size: 22px;
+    line-height: 25px;
+    color: #173a69;
+    padding: 15px 0px;
+}
+
+.blog_item .blog_descp p{
+    font-size: 15px;
+    color: #000;
+    line-height: 20px;
+}
